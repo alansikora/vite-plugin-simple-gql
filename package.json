@@ -1,0 +1,27 @@
+{
+  "name": "vite-plugin-gql",
+  "version": "1.0.0",
+  "description": "Easily import gql and graphql files",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alansikora/vite-plugin-gql.git"
+  },
+  "keywords": [
+    "Vite",
+    "Javascript",
+    "GraphQL"
+  ],
+  "author": "Alan Sikora (alan@allskar.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alansikora/vite-plugin-gql/issues"
+  },
+  "homepage": "https://github.com/alansikora/vite-plugin-gql#readme",
+  "peerDependencies": {
+    "graphql-tag": "^2.12.6"
+  }
+}
