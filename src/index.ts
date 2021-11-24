@@ -2,7 +2,7 @@ function getCode(schema: string) {
   return `
     import gql from 'graphql-tag';
 
-    export default gql\`${schema}\`
+    export default gql(${schema})
   `;
 }
 
@@ -17,7 +17,7 @@ function transform(src: string, id: string) {
   }
 }
 
-function VitePluginGQL() {
+export default function VitePluginGQL() {
   return {
     name: 'vite-plugin-gql',
     transform
